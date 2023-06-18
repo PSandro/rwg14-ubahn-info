@@ -1,0 +1,5 @@
+.pio
+.cache
+.clangd
+compile_commands.json
+include/wifi-creds.h

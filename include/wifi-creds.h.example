@@ -1,0 +1,2 @@
+static const char* SSID = "YOUR_SSID";
+static const char* WPA2_PASS = "YOUR_PASSWORD";
