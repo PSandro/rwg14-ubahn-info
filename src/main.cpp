@@ -148,7 +148,7 @@ void fetch_departures() {
 
   Serial.print("[HTTPS] begin...\n");
   // This uses the station 'Garching' as a globalId
-  if (https.begin(*client, "https://www.mvg.de/api/fib/v2/departure?globalId=de:09184:490&limit=10&offsetInMinutes=0&transportTypes=UBAHN")) {
+  if (https.begin(*client, "https://www.mvg.de/api/bgw-pt/v3/departures?globalId=de:09184:490&limit=10&offsetInMinutes=0&transportTypes=UBAHN")) {
 
     Serial.print("[HTTPS] GET...\n");
     // start connection and send HTTP header
